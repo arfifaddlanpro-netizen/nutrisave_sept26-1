@@ -1,0 +1,34 @@
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+# Build results
+bin/
+obj/
+Debug/
+Release/
+
+# Rider
+.idea/
+
+# Resharper
+_ReSharper*/
+
+# Visual Studio Code
+.vscode/
+
+# Local history and caches
+*.log
+*.vsix
+
+# NuGet
+packages/
+*.nupkg
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+__pycache__/
