@@ -59,5 +59,355 @@ namespace sep_26_nutrisave.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1cdc6330_b1d1_42cd_a95d_12269d1abe18 {
+            get {
+                object obj = ResourceManager.GetObject("1cdc6330-b1d1-42cd-a95d-12269d1abe18", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1cdc6330_b1d1_42cd_a95d_12269d1abe181 {
+            get {
+                object obj = ResourceManager.GetObject("1cdc6330-b1d1-42cd-a95d-12269d1abe181", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6b871884_12c4_434a_b343_1231ad387011 {
+            get {
+                object obj = ResourceManager.GetObject("6b871884-12c4-434a-b343-1231ad387011", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6b871884_12c4_434a_b343_1231ad3870111 {
+            get {
+                object obj = ResourceManager.GetObject("6b871884-12c4-434a-b343-1231ad3870111", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _728954f4_ef94_4133_82e3_36440a58bc65 {
+            get {
+                object obj = ResourceManager.GetObject("728954f4-ef94-4133-82e3-36440a58bc65", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _83b5817452eb904d396411d778091c4e {
+            get {
+                object obj = ResourceManager.GetObject("83b5817452eb904d396411d778091c4e", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _83b5817452eb904d396411d778091c4e1 {
+            get {
+                object obj = ResourceManager.GetObject("83b5817452eb904d396411d778091c4e1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _83b5817452eb904d396411d778091c4e2 {
+            get {
+                object obj = ResourceManager.GetObject("83b5817452eb904d396411d778091c4e2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _83b5817452eb904d396411d778091c4e3 {
+            get {
+                object obj = ResourceManager.GetObject("83b5817452eb904d396411d778091c4e3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cute_Pastel_Medicine_Pill_Set {
+            get {
+                object obj = ResourceManager.GetObject("Cute Pastel Medicine Pill Set", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Embroidered_Garden_Cloud_Label {
+            get {
+                object obj = ResourceManager.GetObject("Embroidered Garden Cloud Label", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Excited_Dessert_Topped_Monkey_Sticker {
+            get {
+                object obj = ResourceManager.GetObject("Excited Dessert-Topped Monkey Sticker", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Kawaii_Crossed_Spoon_and_Fork_Sticker {
+            get {
+                object obj = ResourceManager.GetObject("Kawaii Crossed Spoon and Fork Sticker", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Kawaii_Dumpling_Chef_Sticker {
+            get {
+                object obj = ResourceManager.GetObject("Kawaii Dumpling Chef Sticker", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Kawaii_Leafy_Desk_Calendar_Sticker {
+            get {
+                object obj = ResourceManager.GetObject("Kawaii Leafy Desk Calendar Sticker", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Kawaii_Pastel_Animal_Calendar_Sticker {
+            get {
+                object obj = ResourceManager.GetObject("Kawaii Pastel Animal Calendar Sticker", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Kawaii_Pink_Mushroom_Trio_with_Snail_and_Caterpillar {
+            get {
+                object obj = ResourceManager.GetObject("Kawaii Pink Mushroom Trio with Snail and Caterpillar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NutriSave__Embroidered_Garden_Banner {
+            get {
+                object obj = ResourceManager.GetObject("NutriSave+ Embroidered Garden Banner", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NutriSave__Embroidered_Garden_Banner__1_ {
+            get {
+                object obj = ResourceManager.GetObject("NutriSave+ Embroidered Garden Banner (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NutriSave__Embroidered_Garden_Patch {
+            get {
+                object obj = ResourceManager.GetObject("NutriSave+ Embroidered Garden Patch", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Nutrisave__Leaf_Orbit_Logo {
+            get {
+                object obj = ResourceManager.GetObject("Nutrisave+ Leaf Orbit Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NutriSave__Pastel_Strawberry_Banner {
+            get {
+                object obj = ResourceManager.GetObject("NutriSave+ Pastel Strawberry Banner", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nutrisave_house {
+            get {
+                object obj = ResourceManager.GetObject("nutrisave_house", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nutrisave_house_transparent {
+            get {
+                object obj = ResourceManager.GetObject("nutrisave_house_transparent", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nutrisave_lunchbox_transparent {
+            get {
+                object obj = ResourceManager.GetObject("nutrisave_lunchbox_transparent", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Open_Hand_Offering_a_Sage_Heart {
+            get {
+                object obj = ResourceManager.GetObject("Open Hand Offering a Sage Heart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pastel_Bar_Chart_with_Leaves_and_Sparkle {
+            get {
+                object obj = ResourceManager.GetObject("Pastel Bar Chart with Leaves and Sparkle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pastel_Bar_Chart_with_Leaves_and_Sparkle1 {
+            get {
+                object obj = ResourceManager.GetObject("Pastel Bar Chart with Leaves and Sparkle1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pastel_Lily_Vine_Corner_Ornament {
+            get {
+                object obj = ResourceManager.GetObject("Pastel Lily Vine Corner Ornament", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pastel_Lily_Vine_Corner_Ornament1 {
+            get {
+                object obj = ResourceManager.GetObject("Pastel Lily Vine Corner Ornament1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pastel_Lily_Vine_Corner_Ornament2 {
+            get {
+                object obj = ResourceManager.GetObject("Pastel Lily Vine Corner Ornament2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pastel_Lily_Vine_Corner_Ornament3 {
+            get {
+                object obj = ResourceManager.GetObject("Pastel Lily Vine Corner Ornament3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pastel_Lily_Vine_Corner_Ornament4 {
+            get {
+                object obj = ResourceManager.GetObject("Pastel Lily Vine Corner Ornament4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pastel_Lily_Vine_Corner_Ornament5 {
+            get {
+                object obj = ResourceManager.GetObject("Pastel Lily Vine Corner Ornament5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pastel_Watercolor_Picnic_Basket_with_Bow {
+            get {
+                object obj = ResourceManager.GetObject("Pastel Watercolor Picnic Basket with Bow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

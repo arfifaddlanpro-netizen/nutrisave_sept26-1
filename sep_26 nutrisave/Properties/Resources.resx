@@ -117,4 +117,110 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NutriSave+ Embroidered Garden Banner (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NutriSave+ Embroidered Garden Banner (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pastel Lily Vine Corner Ornament4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pastel Lily Vine Corner Ornament4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nutrisave_lunchbox_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nutrisave_lunchbox_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NutriSave+ Embroidered Garden Patch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NutriSave+ Embroidered Garden Patch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="83b5817452eb904d396411d778091c4e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\83b5817452eb904d396411d778091c4e.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1cdc6330-b1d1-42cd-a95d-12269d1abe181" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1cdc6330-b1d1-42cd-a95d-12269d1abe181.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pastel Lily Vine Corner Ornament" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pastel Lily Vine Corner Ornament.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pastel Lily Vine Corner Ornament1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pastel Lily Vine Corner Ornament1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pastel Lily Vine Corner Ornament5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pastel Lily Vine Corner Ornament5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="83b5817452eb904d396411d778091c4e2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\83b5817452eb904d396411d778091c4e2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6b871884-12c4-434a-b343-1231ad3870111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6b871884-12c4-434a-b343-1231ad3870111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pastel Lily Vine Corner Ornament2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pastel Lily Vine Corner Ornament2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nutrisave_house_transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nutrisave_house_transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kawaii Dumpling Chef Sticker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kawaii Dumpling Chef Sticker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pastel Lily Vine Corner Ornament3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pastel Lily Vine Corner Ornament3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1cdc6330-b1d1-42cd-a95d-12269d1abe18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1cdc6330-b1d1-42cd-a95d-12269d1abe18.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nutrisave_house" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nutrisave_house.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Excited Dessert-Topped Monkey Sticker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Excited Dessert-Topped Monkey Sticker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cute Pastel Medicine Pill Set" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cute Pastel Medicine Pill Set.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kawaii Crossed Spoon and Fork Sticker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kawaii Crossed Spoon and Fork Sticker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kawaii Leafy Desk Calendar Sticker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kawaii Leafy Desk Calendar Sticker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6b871884-12c4-434a-b343-1231ad387011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6b871884-12c4-434a-b343-1231ad387011.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="83b5817452eb904d396411d778091c4e3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\83b5817452eb904d396411d778091c4e3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pastel Bar Chart with Leaves and Sparkle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pastel Bar Chart with Leaves and Sparkle1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pastel Bar Chart with Leaves and Sparkle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pastel Bar Chart with Leaves and Sparkle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NutriSave+ Embroidered Garden Banner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NutriSave+ Embroidered Garden Banner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="83b5817452eb904d396411d778091c4e1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\83b5817452eb904d396411d778091c4e1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Nutrisave+ Leaf Orbit Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Nutrisave+ Leaf Orbit Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kawaii Pink Mushroom Trio with Snail and Caterpillar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kawaii Pink Mushroom Trio with Snail and Caterpillar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kawaii Pastel Animal Calendar Sticker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kawaii Pastel Animal Calendar Sticker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Open Hand Offering a Sage Heart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Open Hand Offering a Sage Heart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Embroidered Garden Cloud Label" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Embroidered Garden Cloud Label.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NutriSave+ Pastel Strawberry Banner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NutriSave+ Pastel Strawberry Banner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pastel Watercolor Picnic Basket with Bow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pastel Watercolor Picnic Basket with Bow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="728954f4-ef94-4133-82e3-36440a58bc65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\728954f4-ef94-4133-82e3-36440a58bc65.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

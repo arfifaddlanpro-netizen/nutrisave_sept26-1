@@ -41,5 +41,15 @@ namespace sep_26_nutrisave
         {
 
         }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox24_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
