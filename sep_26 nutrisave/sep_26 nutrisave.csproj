@@ -10,18 +10,39 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="Images\chickenrice.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\eggtoast.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\eggfriedrice.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PanoramicData.System.Windows.Forms.DataVisualization" Version="1.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
   </ItemGroup>
+	<ItemGroup>
+		<Compile Update="Form2.cs">
+			<SubType>Form</SubType>
+		</Compile>
 
-  <ItemGroup>
-    <EmbeddedResource Update="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
+		<Compile Update="Form2.Designer.cs">
+			<DependentUpon>Form2.cs</DependentUpon>
+		</Compile>
 
+		<EmbeddedResource Update="Form2.resx">
+			<DependentUpon>Form2.cs</DependentUpon>
+		</EmbeddedResource>
+	</ItemGroup>
 </Project>

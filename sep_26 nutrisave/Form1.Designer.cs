@@ -36,15 +36,13 @@
             pictureBox7 = new PictureBox();
             pictureBox6 = new PictureBox();
             pictureBox5 = new PictureBox();
-            pictureBox4 = new PictureBox();
             pictureBox3 = new PictureBox();
-            button3 = new Button();
             pictureBox2 = new PictureBox();
-            button8 = new Button();
-            button7 = new Button();
-            button6 = new Button();
-            button5 = new Button();
-            button4 = new Button();
+            btnReport = new Button();
+            btnFoodSharing = new Button();
+            btnMedication = new Button();
+            btnMeal = new Button();
+            btnRecipes = new Button();
             btnFoodInventory = new Button();
             btnDashboard = new Button();
             panel1 = new Panel();
@@ -75,21 +73,20 @@
             label13 = new Label();
             pictureBox16 = new PictureBox();
             panel7 = new Panel();
+            dataGridView1 = new DataGridView();
+            Food = new DataGridViewButtonColumn();
+            Category = new DataGridViewTextBoxColumn();
+            ExpiryDate = new DataGridViewTextBoxColumn();
+            Status = new DataGridViewTextBoxColumn();
             pictureBox17 = new PictureBox();
-            panel9 = new Panel();
-            tableLayoutPanel1 = new TableLayoutPanel();
-            label4 = new Label();
-            label3 = new Label();
-            label14 = new Label();
-            label5 = new Label();
             button10 = new Button();
             label2 = new Label();
             panel8 = new Panel();
             pictureBox18 = new PictureBox();
             label15 = new Label();
-            button2 = new Button();
-            button1 = new Button();
-            button9 = new Button();
+            btnRecordMeals = new Button();
+            btnAddMedications = new Button();
+            btnAddFoodItems = new Button();
             pictureBox10 = new PictureBox();
             label8 = new Label();
             label9 = new Label();
@@ -101,7 +98,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel1.SuspendLayout();
@@ -126,9 +122,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox23).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox16).BeginInit();
             panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox17).BeginInit();
-            panel9.SuspendLayout();
-            tableLayoutPanel1.SuspendLayout();
             panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
@@ -144,15 +139,13 @@
             panel6.Controls.Add(pictureBox7);
             panel6.Controls.Add(pictureBox6);
             panel6.Controls.Add(pictureBox5);
-            panel6.Controls.Add(pictureBox4);
             panel6.Controls.Add(pictureBox3);
-            panel6.Controls.Add(button3);
             panel6.Controls.Add(pictureBox2);
-            panel6.Controls.Add(button8);
-            panel6.Controls.Add(button7);
-            panel6.Controls.Add(button6);
-            panel6.Controls.Add(button5);
-            panel6.Controls.Add(button4);
+            panel6.Controls.Add(btnReport);
+            panel6.Controls.Add(btnFoodSharing);
+            panel6.Controls.Add(btnMedication);
+            panel6.Controls.Add(btnMeal);
+            panel6.Controls.Add(btnRecipes);
             panel6.Controls.Add(btnFoodInventory);
             panel6.Controls.Add(btnDashboard);
             panel6.Location = new Point(1, 91);
@@ -225,17 +218,6 @@
             pictureBox5.TabStop = false;
             pictureBox5.Click += pictureBox5_Click;
             // 
-            // pictureBox4
-            // 
-            pictureBox4.BackColor = Color.Transparent;
-            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(0, 164);
-            pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(60, 60);
-            pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox4.TabIndex = 7;
-            pictureBox4.TabStop = false;
-            // 
             // pictureBox3
             // 
             pictureBox3.BackColor = Color.Transparent;
@@ -246,19 +228,6 @@
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 7;
             pictureBox3.TabStop = false;
-            // 
-            // button3
-            // 
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button3.ForeColor = Color.FromArgb(36, 95, 61);
-            button3.Location = new Point(3, 164);
-            button3.Name = "button3";
-            button3.Size = new Size(246, 52);
-            button3.TabIndex = 2;
-            button3.Text = "Expiry Alerts";
-            button3.UseVisualStyleBackColor = true;
             // 
             // pictureBox2
             // 
@@ -271,71 +240,74 @@
             pictureBox2.TabIndex = 7;
             pictureBox2.TabStop = false;
             // 
-            // button8
+            // btnReport
             // 
-            button8.FlatAppearance.BorderSize = 0;
-            button8.FlatStyle = FlatStyle.Flat;
-            button8.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button8.ForeColor = Color.FromArgb(36, 95, 61);
-            button8.Location = new Point(3, 526);
-            button8.Name = "button8";
-            button8.Size = new Size(246, 52);
-            button8.TabIndex = 7;
-            button8.Text = "Reports";
-            button8.UseVisualStyleBackColor = true;
+            btnReport.FlatAppearance.BorderSize = 0;
+            btnReport.FlatStyle = FlatStyle.Flat;
+            btnReport.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnReport.ForeColor = Color.FromArgb(36, 95, 61);
+            btnReport.Location = new Point(3, 526);
+            btnReport.Name = "btnReport";
+            btnReport.Size = new Size(246, 52);
+            btnReport.TabIndex = 7;
+            btnReport.Text = "Reports";
+            btnReport.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btnFoodSharing
             // 
-            button7.FlatAppearance.BorderSize = 0;
-            button7.FlatStyle = FlatStyle.Flat;
-            button7.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button7.ForeColor = Color.FromArgb(36, 95, 61);
-            button7.Location = new Point(2, 461);
-            button7.Name = "button7";
-            button7.Size = new Size(246, 52);
-            button7.TabIndex = 6;
-            button7.Text = "Food Sharing";
-            button7.UseVisualStyleBackColor = true;
+            btnFoodSharing.FlatAppearance.BorderSize = 0;
+            btnFoodSharing.FlatStyle = FlatStyle.Flat;
+            btnFoodSharing.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnFoodSharing.ForeColor = Color.FromArgb(36, 95, 61);
+            btnFoodSharing.Location = new Point(2, 461);
+            btnFoodSharing.Name = "btnFoodSharing";
+            btnFoodSharing.Size = new Size(246, 52);
+            btnFoodSharing.TabIndex = 6;
+            btnFoodSharing.Text = "Food Sharing";
+            btnFoodSharing.UseVisualStyleBackColor = true;
+            btnFoodSharing.Click += btnFoodSharing_Click;
             // 
-            // button6
+            // btnMedication
             // 
-            button6.FlatAppearance.BorderSize = 0;
-            button6.FlatStyle = FlatStyle.Flat;
-            button6.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button6.ForeColor = Color.FromArgb(36, 95, 61);
-            button6.Location = new Point(-1, 391);
-            button6.Name = "button6";
-            button6.Size = new Size(246, 52);
-            button6.TabIndex = 5;
-            button6.Text = "Medication";
-            button6.UseVisualStyleBackColor = true;
+            btnMedication.FlatAppearance.BorderSize = 0;
+            btnMedication.FlatStyle = FlatStyle.Flat;
+            btnMedication.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnMedication.ForeColor = Color.FromArgb(36, 95, 61);
+            btnMedication.Location = new Point(-1, 391);
+            btnMedication.Name = "btnMedication";
+            btnMedication.Size = new Size(246, 52);
+            btnMedication.TabIndex = 5;
+            btnMedication.Text = "Medication";
+            btnMedication.UseVisualStyleBackColor = true;
+            btnMedication.Click += btnMedication_Click;
             // 
-            // button5
+            // btnMeal
             // 
-            button5.FlatAppearance.BorderSize = 0;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button5.ForeColor = Color.FromArgb(36, 95, 61);
-            button5.Location = new Point(21, 333);
-            button5.Name = "button5";
-            button5.Size = new Size(228, 52);
-            button5.TabIndex = 4;
-            button5.Text = "Meal && Nutrition";
-            button5.UseVisualStyleBackColor = true;
-            button5.Click += button5_Click;
+            btnMeal.FlatAppearance.BorderSize = 0;
+            btnMeal.FlatStyle = FlatStyle.Flat;
+            btnMeal.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnMeal.ForeColor = Color.FromArgb(36, 95, 61);
+            btnMeal.Location = new Point(21, 333);
+            btnMeal.Name = "btnMeal";
+            btnMeal.Size = new Size(228, 52);
+            btnMeal.TabIndex = 4;
+            btnMeal.Text = "Meal && Nutrition";
+            btnMeal.UseVisualStyleBackColor = true;
+            btnMeal.Click += btnMeal_Click;
             // 
-            // button4
+            // btnRecipes
             // 
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button4.ForeColor = Color.FromArgb(36, 95, 61);
-            button4.Location = new Point(2, 248);
-            button4.Name = "button4";
-            button4.Size = new Size(246, 52);
-            button4.TabIndex = 3;
-            button4.Text = "Recipes";
-            button4.UseVisualStyleBackColor = true;
+            btnRecipes.FlatAppearance.BorderSize = 0;
+            btnRecipes.FlatStyle = FlatStyle.Flat;
+            btnRecipes.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnRecipes.ForeColor = Color.FromArgb(36, 95, 61);
+            btnRecipes.Location = new Point(2, 248);
+            btnRecipes.Name = "btnRecipes";
+            btnRecipes.Size = new Size(246, 52);
+            btnRecipes.TabIndex = 3;
+            btnRecipes.Text = "Recipes";
+            btnRecipes.UseVisualStyleBackColor = true;
+           
             // 
             // btnFoodInventory
             // 
@@ -349,6 +321,7 @@
             btnFoodInventory.TabIndex = 1;
             btnFoodInventory.Text = "Food Inventory";
             btnFoodInventory.UseVisualStyleBackColor = true;
+            btnFoodInventory.Click += btnFoodInventory_Click;
             // 
             // btnDashboard
             // 
@@ -656,8 +629,8 @@
             // panel7
             // 
             panel7.BackColor = Color.FromArgb(245, 228, 207);
+            panel7.Controls.Add(dataGridView1);
             panel7.Controls.Add(pictureBox17);
-            panel7.Controls.Add(panel9);
             panel7.Controls.Add(button10);
             panel7.Controls.Add(label2);
             panel7.Location = new Point(231, 427);
@@ -665,6 +638,50 @@
             panel7.Size = new Size(496, 305);
             panel7.TabIndex = 5;
             panel7.Paint += panel7_Paint;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.AllowUserToAddRows = false;
+            dataGridView1.BackgroundColor = SystemColors.ButtonHighlight;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Food, Category, ExpiryDate, Status });
+            dataGridView1.Location = new Point(11, 89);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersVisible = false;
+            dataGridView1.RowHeadersWidth = 62;
+            dataGridView1.Size = new Size(313, 180);
+            dataGridView1.TabIndex = 17;
+            // 
+            // Food
+            // 
+            Food.HeaderText = "Food";
+            Food.MinimumWidth = 8;
+            Food.Name = "Food";
+            Food.Resizable = DataGridViewTriState.True;
+            Food.SortMode = DataGridViewColumnSortMode.Automatic;
+            Food.Text = "Edit";
+            Food.Width = 75;
+            // 
+            // Category
+            // 
+            Category.HeaderText = "Category";
+            Category.MinimumWidth = 8;
+            Category.Name = "Category";
+            Category.Width = 80;
+            // 
+            // ExpiryDate
+            // 
+            ExpiryDate.HeaderText = "Expiry Date";
+            ExpiryDate.MinimumWidth = 8;
+            ExpiryDate.Name = "ExpiryDate";
+            ExpiryDate.Width = 90;
+            // 
+            // Status
+            // 
+            Status.HeaderText = "Status";
+            Status.MinimumWidth = 8;
+            Status.Name = "Status";
+            Status.Width = 65;
             // 
             // pictureBox17
             // 
@@ -675,89 +692,6 @@
             pictureBox17.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox17.TabIndex = 10;
             pictureBox17.TabStop = false;
-            // 
-            // panel9
-            // 
-            panel9.BackColor = Color.FromArgb(235, 224, 197);
-            panel9.Controls.Add(tableLayoutPanel1);
-            panel9.Location = new Point(6, 68);
-            panel9.Name = "panel9";
-            panel9.Size = new Size(451, 234);
-            panel9.TabIndex = 8;
-            // 
-            // tableLayoutPanel1
-            // 
-            tableLayoutPanel1.BackColor = Color.FromArgb(255, 253, 245);
-            tableLayoutPanel1.CellBorderStyle = TableLayoutPanelCellBorderStyle.Single;
-            tableLayoutPanel1.ColumnCount = 4;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 43.5897446F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 56.4102554F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 93F));
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 103F));
-            tableLayoutPanel1.Controls.Add(label4, 2, 0);
-            tableLayoutPanel1.Controls.Add(label3, 0, 0);
-            tableLayoutPanel1.Controls.Add(label14, 1, 0);
-            tableLayoutPanel1.Controls.Add(label5, 3, 0);
-            tableLayoutPanel1.Location = new Point(18, 20);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 5;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 40F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 39F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 36F));
-            tableLayoutPanel1.Size = new Size(413, 200);
-            tableLayoutPanel1.TabIndex = 0;
-            // 
-            // label4
-            // 
-            label4.BackColor = Color.Transparent;
-            label4.Font = new Font("Segoe UI Semibold", 8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.ForeColor = Color.FromArgb(41, 75, 53);
-            label4.Location = new Point(217, 1);
-            label4.Name = "label4";
-            label4.Size = new Size(87, 39);
-            label4.TabIndex = 2;
-            label4.Text = "Expiry \r\nDate";
-            label4.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label3
-            // 
-            label3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            label3.BackColor = Color.Transparent;
-            label3.Font = new Font("Segoe UI Semibold", 8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.ForeColor = Color.FromArgb(41, 75, 53);
-            label3.Location = new Point(4, 1);
-            label3.Name = "label3";
-            label3.Size = new Size(86, 39);
-            label3.TabIndex = 0;
-            label3.Text = "Food Item";
-            label3.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label14
-            // 
-            label14.BackColor = Color.Transparent;
-            label14.Font = new Font("Segoe UI Semibold", 8F, FontStyle.Bold);
-            label14.ForeColor = Color.FromArgb(41, 75, 53);
-            label14.Location = new Point(97, 1);
-            label14.Name = "label14";
-            label14.Size = new Size(113, 39);
-            label14.TabIndex = 4;
-            label14.Text = "Category";
-            label14.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label5
-            // 
-            label5.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            label5.BackColor = Color.Transparent;
-            label5.Font = new Font("Segoe UI Semibold", 8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.ForeColor = Color.FromArgb(41, 75, 53);
-            label5.Location = new Point(311, 1);
-            label5.Name = "label5";
-            label5.Size = new Size(98, 39);
-            label5.TabIndex = 3;
-            label5.Text = "Status";
-            label5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // button10
             // 
@@ -786,9 +720,9 @@
             panel8.BackColor = Color.FromArgb(235, 224, 197);
             panel8.Controls.Add(pictureBox18);
             panel8.Controls.Add(label15);
-            panel8.Controls.Add(button2);
-            panel8.Controls.Add(button1);
-            panel8.Controls.Add(button9);
+            panel8.Controls.Add(btnRecordMeals);
+            panel8.Controls.Add(btnAddMedications);
+            panel8.Controls.Add(btnAddFoodItems);
             panel8.Location = new Point(733, 427);
             panel8.Name = "panel8";
             panel8.Size = new Size(314, 305);
@@ -815,41 +749,41 @@
             label15.TabIndex = 9;
             label15.Text = "Quick Actions";
             // 
-            // button2
+            // btnRecordMeals
             // 
-            button2.BackColor = Color.FromArgb(202, 215, 165);
-            button2.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.ForeColor = Color.FromArgb(41, 75, 53);
-            button2.Location = new Point(23, 215);
-            button2.Name = "button2";
-            button2.Size = new Size(277, 54);
-            button2.TabIndex = 4;
-            button2.Text = "Record Meal";
-            button2.UseVisualStyleBackColor = false;
+            btnRecordMeals.BackColor = Color.FromArgb(202, 215, 165);
+            btnRecordMeals.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnRecordMeals.ForeColor = Color.FromArgb(41, 75, 53);
+            btnRecordMeals.Location = new Point(23, 215);
+            btnRecordMeals.Name = "btnRecordMeals";
+            btnRecordMeals.Size = new Size(277, 54);
+            btnRecordMeals.TabIndex = 4;
+            btnRecordMeals.Text = "Record Meal";
+            btnRecordMeals.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // btnAddMedications
             // 
-            button1.BackColor = Color.FromArgb(246, 190, 198);
-            button1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.ForeColor = Color.FromArgb(41, 75, 53);
-            button1.Location = new Point(23, 145);
-            button1.Name = "button1";
-            button1.Size = new Size(277, 54);
-            button1.TabIndex = 3;
-            button1.Text = "Add Medication";
-            button1.UseVisualStyleBackColor = false;
+            btnAddMedications.BackColor = Color.FromArgb(246, 190, 198);
+            btnAddMedications.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAddMedications.ForeColor = Color.FromArgb(41, 75, 53);
+            btnAddMedications.Location = new Point(23, 145);
+            btnAddMedications.Name = "btnAddMedications";
+            btnAddMedications.Size = new Size(277, 54);
+            btnAddMedications.TabIndex = 3;
+            btnAddMedications.Text = "Add Medication";
+            btnAddMedications.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // btnAddFoodItems
             // 
-            button9.BackColor = Color.FromArgb(202, 216, 172);
-            button9.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button9.ForeColor = Color.FromArgb(41, 75, 53);
-            button9.Location = new Point(23, 75);
-            button9.Name = "button9";
-            button9.Size = new Size(277, 54);
-            button9.TabIndex = 2;
-            button9.Text = "Add Food Item";
-            button9.UseVisualStyleBackColor = false;
+            btnAddFoodItems.BackColor = Color.FromArgb(202, 216, 172);
+            btnAddFoodItems.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAddFoodItems.ForeColor = Color.FromArgb(41, 75, 53);
+            btnAddFoodItems.Location = new Point(23, 75);
+            btnAddFoodItems.Name = "btnAddFoodItems";
+            btnAddFoodItems.Size = new Size(277, 54);
+            btnAddFoodItems.TabIndex = 2;
+            btnAddFoodItems.Text = "Add Food Item";
+            btnAddFoodItems.UseVisualStyleBackColor = false;
             // 
             // pictureBox10
             // 
@@ -923,7 +857,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox7).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panel1.ResumeLayout(false);
@@ -954,9 +887,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox16).EndInit();
             panel7.ResumeLayout(false);
             panel7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox17).EndInit();
-            panel9.ResumeLayout(false);
-            tableLayoutPanel1.ResumeLayout(false);
             panel8.ResumeLayout(false);
             panel8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox18).EndInit();
@@ -969,12 +901,11 @@
         #endregion
 
         private Panel panel6;
-        private Button button8;
-        private Button button7;
-        private Button button6;
-        private Button button5;
-        private Button button4;
-        private Button button3;
+        private Button btnReport;
+        private Button btnFoodSharing;
+        private Button btnMedication;
+        private Button btnMeal;
+        private Button btnRecipes;
         private Button btnFoodInventory;
         private Button btnDashboard;
         private Panel panel1;
@@ -984,21 +915,15 @@
         private Panel panel5;
         private Panel panel7;
         private Panel panel8;
-        private Button button2;
-        private Button button1;
-        private Button button9;
+        private Button btnRecordMeals;
+        private Button btnAddMedications;
+        private Button btnAddFoodItems;
         private Label label2;
-        private Panel panel9;
         private Button button10;
-        private TableLayoutPanel tableLayoutPanel1;
-        private Label label3;
-        private Label label4;
-        private Label label5;
         private Label label7;
         private Label label6;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
-        private PictureBox pictureBox4;
         private PictureBox pictureBox5;
         private PictureBox pictureBox6;
         private PictureBox pictureBox9;
@@ -1017,7 +942,6 @@
         private Label label12;
         private Label label13;
         private PictureBox pictureBox16;
-        private Label label14;
         private Label label15;
         private PictureBox pictureBox17;
         private PictureBox pictureBox18;
@@ -1033,5 +957,10 @@
         private PictureBox pictureBox26;
         private PictureBox pictureBox25;
         private PictureBox pictureBox24;
+        private DataGridView dataGridView1;
+        private DataGridViewButtonColumn Food;
+        private DataGridViewTextBoxColumn Category;
+        private DataGridViewTextBoxColumn ExpiryDate;
+        private DataGridViewTextBoxColumn Status;
     }
 }
