@@ -15,6 +15,7 @@ namespace sep_26_nutrisave
         public Form6()
         {
             InitializeComponent();
+            AdminNavigation.Attach(this, panel6);
 
             LoadReportData();
 

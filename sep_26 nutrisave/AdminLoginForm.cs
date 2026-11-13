@@ -144,6 +144,18 @@ public sealed class AdminLoginForm : Form
         }
     }
 
+    private void InitializeComponent()
+    {
+        SuspendLayout();
+        // 
+        // AdminLoginForm
+        // 
+        ClientSize = new Size(1330, 720);
+        Name = "AdminLoginForm";
+        ResumeLayout(false);
+
+    }
+
     private void LoginButton_Click(object? sender, EventArgs e)
     {
         if (string.Equals(usernameBox.Text.Trim(), DemoUsername, StringComparison.OrdinalIgnoreCase) && passwordBox.Text == DemoPassword)

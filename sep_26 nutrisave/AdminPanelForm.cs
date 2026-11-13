@@ -416,6 +416,11 @@ public sealed class AdminPanelForm : Form
         MessageBox.Show(this, message, "Not available", MessageBoxButtons.OK, MessageBoxIcon.Information);
     }
 
+    private void InitializeComponent()
+    {
+
+    }
+
     private void OpenExistingForm(Type formType)
     {
         if (Activator.CreateInstance(formType) is not Form form) return;

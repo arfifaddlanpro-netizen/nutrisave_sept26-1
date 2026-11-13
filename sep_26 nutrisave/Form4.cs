@@ -14,6 +14,7 @@ namespace sep_26_nutrisave
         public Form4()
         {
             InitializeComponent();
+            AdminNavigation.Attach(this, panel6);
             dataGridView2.CellContentClick += dataGridView2_EditClick;
             btnFoodInventory.Click += btnFoodInventory_Click;
             btnMealNutrition.Click += btnMealNutrition_Click;

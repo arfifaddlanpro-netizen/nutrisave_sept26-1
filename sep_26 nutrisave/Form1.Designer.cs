@@ -91,6 +91,8 @@
             label8 = new Label();
             label9 = new Label();
             pictureBox11 = new PictureBox();
+            pictureBox4 = new PictureBox();
+            btnAdminPanel = new Button();
             panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox19).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
@@ -128,11 +130,13 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox18).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             SuspendLayout();
             // 
             // panel6
             // 
             panel6.BackColor = Color.FromArgb(221, 233, 212);
+            panel6.Controls.Add(pictureBox4);
             panel6.Controls.Add(pictureBox19);
             panel6.Controls.Add(pictureBox8);
             panel6.Controls.Add(pictureBox9);
@@ -148,6 +152,7 @@
             panel6.Controls.Add(btnRecipes);
             panel6.Controls.Add(btnFoodInventory);
             panel6.Controls.Add(btnDashboard);
+            panel6.Controls.Add(btnAdminPanel);
             panel6.Location = new Point(1, 91);
             panel6.Name = "panel6";
             panel6.Size = new Size(224, 668);
@@ -222,12 +227,13 @@
             // 
             pictureBox3.BackColor = Color.Transparent;
             pictureBox3.Image = Properties.Resources.nutrisave_lunchbox_transparent;
-            pictureBox3.Location = new Point(-1, 82);
+            pictureBox3.Location = new Point(-3, 90);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(60, 60);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 7;
             pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
             // 
             // pictureBox2
             // 
@@ -307,7 +313,6 @@
             btnRecipes.TabIndex = 3;
             btnRecipes.Text = "Recipes";
             btnRecipes.UseVisualStyleBackColor = true;
-           
             // 
             // btnFoodInventory
             // 
@@ -829,6 +834,30 @@
             pictureBox11.TabIndex = 9;
             pictureBox11.TabStop = false;
             // 
+            // pictureBox4
+            // 
+            pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
+            pictureBox4.Location = new Point(0, 174);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(64, 59);
+            pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox4.TabIndex = 13;
+            pictureBox4.TabStop = false;
+            pictureBox4.Click += pictureBox4_Click;
+            // 
+            // btnAdminPanel
+            // 
+            btnAdminPanel.BackColor = Color.FromArgb(221, 233, 212);
+            btnAdminPanel.FlatStyle = FlatStyle.Flat;
+            btnAdminPanel.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnAdminPanel.ForeColor = Color.FromArgb(36, 95, 61);
+            btnAdminPanel.Location = new Point(3, 174);
+            btnAdminPanel.Name = "btnAdminPanel";
+            btnAdminPanel.Size = new Size(218, 56);
+            btnAdminPanel.TabIndex = 14;
+            btnAdminPanel.Text = "    Admin Panel";
+            btnAdminPanel.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -894,6 +923,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox18).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -962,5 +992,7 @@
         private DataGridViewTextBoxColumn Category;
         private DataGridViewTextBoxColumn ExpiryDate;
         private DataGridViewTextBoxColumn Status;
+        private PictureBox pictureBox4;
+        private Button btnAdminPanel;
     }
 }

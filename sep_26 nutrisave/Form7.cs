@@ -14,9 +14,10 @@ namespace sep_26_nutrisave
         public Form7()
         {
             InitializeComponent();
-            
+            AdminNavigation.Attach(this, panel6);
+
             ShowMatchingRecipes();
-          
+
             btnViewRecipe1.Click += btnViewRecipe1_Click;
             btnViewRecipe2.Click += btnViewRecipe2_Click;
             btnViewRecipe3.Click += btnViewRecipe3_Click;
@@ -24,7 +25,7 @@ namespace sep_26_nutrisave
             cmbCategory.SelectedIndexChanged += (s, e) => ShowMatchingRecipes();
             cmbCookingTime.SelectedIndexChanged += (s, e) => ShowMatchingRecipes();
             chkUsesExpiringFood.CheckedChanged += (s, e) => ShowMatchingRecipes();
-            
+
         }
         public class Recipe
         {
@@ -41,7 +42,7 @@ namespace sep_26_nutrisave
         Name = "Egg Fried Rice",
         Ingredients = "Rice, Egg",
         Category = "Lunch",
-        CookingTime = 15, 
+        CookingTime = 15,
         Image = Image.FromFile("Images/eggfriedrice.jpg")
     },
 
@@ -79,39 +80,39 @@ namespace sep_26_nutrisave
         CookingTime = 10
     }
 };
-       
-          private void ShowMatchingRecipes()
-{
-    List<Recipe> matchingRecipes = new List<Recipe>();
 
-    foreach (Recipe recipe in recipes)
-    {
-        string[] ingredients = recipe.Ingredients.Split(',');
-        bool hasAllIngredients = true;
-
-        foreach (string ingredient in ingredients)
+        private void ShowMatchingRecipes()
         {
-            bool found = Form2.FoodItems.Any(food =>
-                food.FoodName.Trim().Equals(ingredient.Trim(), StringComparison.OrdinalIgnoreCase));
+            List<Recipe> matchingRecipes = new List<Recipe>();
 
-            if (!found)
+            foreach (Recipe recipe in recipes)
             {
-                hasAllIngredients = false;
-                break;
+                string[] ingredients = recipe.Ingredients.Split(',');
+                bool hasAllIngredients = true;
+
+                foreach (string ingredient in ingredients)
+                {
+                    bool found = Form2.FoodItems.Any(food =>
+                        food.FoodName.Trim().Equals(ingredient.Trim(), StringComparison.OrdinalIgnoreCase));
+
+                    if (!found)
+                    {
+                        hasAllIngredients = false;
+                        break;
+                    }
+                }
+
+                if (hasAllIngredients)
+                {
+                    matchingRecipes.Add(recipe);
+                }
             }
+
+            DisplayRecipe(0, matchingRecipes);
+            DisplayRecipe(1, matchingRecipes);
+            DisplayRecipe(2, matchingRecipes);
         }
 
-        if (hasAllIngredients)
-        {
-            matchingRecipes.Add(recipe);
-        }
-    }
-
-    DisplayRecipe(0, matchingRecipes);
-    DisplayRecipe(1, matchingRecipes);
-    DisplayRecipe(2, matchingRecipes);
-}
-        
         private void DisplayRecipe(int index, List<Recipe> matchingRecipes)
         {
             Panel[] panels = { pnlRecipe1, pnlRecipe2, pnlRecipe3 };
@@ -157,5 +158,14 @@ namespace sep_26_nutrisave
             );
         }
 
+        private void picRecipe1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void picRecipe3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

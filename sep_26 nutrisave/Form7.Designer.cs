@@ -63,51 +63,52 @@
             btnFoodInventory = new Button();
             btnDashboard = new Button();
             panel8 = new Panel();
+            chkUsesExpiringFood = new CheckBox();
+            cmbCookingTime = new ComboBox();
+            cmbCategory = new ComboBox();
+            txtSearchRecipe = new TextBox();
+            pnlRecipe3 = new Panel();
+            lblIngredients3 = new Label();
+            btnViewRecipe3 = new Button();
+            lblRecipeTime3 = new Label();
+            lblRecipeDifficulty3 = new Label();
+            picRecipe3 = new PictureBox();
+            lblRecipeName3 = new Label();
+            pnlRecipe2 = new Panel();
+            btnViewRecipe2 = new Button();
+            lblIngredients2 = new Label();
+            lblRecipeDifficulty2 = new Label();
+            lblRecipeTime2 = new Label();
+            lblRecipeName2 = new Label();
+            picRecipe2 = new PictureBox();
+            pnlRecipe1 = new Panel();
+            btnViewRecipe1 = new Button();
+            lblIngredients = new Label();
+            lblRecipeDifficulty1 = new Label();
+            lblRecipeTime1 = new Label();
+            lblRecipeName1 = new Label();
+            picRecipe1 = new PictureBox();
             lblTotalFood = new Label();
             label17 = new Label();
             panel2 = new Panel();
+            lblMatchingRecipes = new Label();
             pictureBox20 = new PictureBox();
             lblFood = new Label();
             panel3 = new Panel();
+            lblExpiringFood = new Label();
             pictureBox21 = new PictureBox();
             label11 = new Label();
             pictureBox15 = new PictureBox();
             panel4 = new Panel();
+            lblAvailableIngredients = new Label();
             label12 = new Label();
             pictureBox22 = new PictureBox();
             FoodCategories = new Label();
             pictureBox14 = new PictureBox();
             label8 = new Label();
             pictureBox10 = new PictureBox();
-            lblMatchingRecipes = new Label();
-            lblExpiringFood = new Label();
-            lblAvailableIngredients = new Label();
             pictureBox11 = new PictureBox();
-            pnlRecipe1 = new Panel();
-            pnlRecipe2 = new Panel();
-            pnlRecipe3 = new Panel();
-            txtSearchRecipe = new TextBox();
-            cmbCategory = new ComboBox();
-            cmbCookingTime = new ComboBox();
-            chkUsesExpiringFood = new CheckBox();
-            picRecipe1 = new PictureBox();
-            picRecipe2 = new PictureBox();
-            picRecipe3 = new PictureBox();
-            lblRecipeName1 = new Label();
-            lblRecipeTime1 = new Label();
-            lblRecipeDifficulty1 = new Label();
-            lblIngredients = new Label();
-            btnViewRecipe1 = new Button();
-            lblRecipeName2 = new Label();
-            lblRecipeTime2 = new Label();
-            lblRecipeDifficulty2 = new Label();
-            lblIngredients2 = new Label();
-            btnViewRecipe2 = new Button();
-            lblRecipeName3 = new Label();
-            lblRecipeTime3 = new Label();
-            lblRecipeDifficulty3 = new Label();
-            lblIngredients3 = new Label();
-            btnViewRecipe3 = new Button();
+            pictureBox4 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox32).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox31).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox30).BeginInit();
@@ -132,6 +133,12 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel8.SuspendLayout();
+            pnlRecipe3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picRecipe3).BeginInit();
+            pnlRecipe2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picRecipe2).BeginInit();
+            pnlRecipe1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)picRecipe1).BeginInit();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox20).BeginInit();
             panel3.SuspendLayout();
@@ -142,12 +149,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox14).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
-            pnlRecipe1.SuspendLayout();
-            pnlRecipe2.SuspendLayout();
-            pnlRecipe3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)picRecipe1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)picRecipe2).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)picRecipe3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             SuspendLayout();
             // 
             // pictureBox32
@@ -547,6 +549,244 @@
             panel8.Size = new Size(1289, 371);
             panel8.TabIndex = 40;
             // 
+            // chkUsesExpiringFood
+            // 
+            chkUsesExpiringFood.AutoSize = true;
+            chkUsesExpiringFood.Location = new Point(939, 28);
+            chkUsesExpiringFood.Name = "chkUsesExpiringFood";
+            chkUsesExpiringFood.Size = new Size(187, 29);
+            chkUsesExpiringFood.TabIndex = 21;
+            chkUsesExpiringFood.Text = "Uses expiring food";
+            chkUsesExpiringFood.UseVisualStyleBackColor = true;
+            // 
+            // cmbCookingTime
+            // 
+            cmbCookingTime.FormattingEnabled = true;
+            cmbCookingTime.Items.AddRange(new object[] { "Under 15 minutes", "15-30 minutes", "30-60 minutes", "Over 60 minutes" });
+            cmbCookingTime.Location = new Point(712, 24);
+            cmbCookingTime.Name = "cmbCookingTime";
+            cmbCookingTime.Size = new Size(182, 33);
+            cmbCookingTime.TabIndex = 20;
+            cmbCookingTime.Text = "Cooking  time";
+            // 
+            // cmbCategory
+            // 
+            cmbCategory.FormattingEnabled = true;
+            cmbCategory.Items.AddRange(new object[] { "Breakfast", "Lunch", "Dinner", "Snacks", "Dessert" });
+            cmbCategory.Location = new Point(457, 24);
+            cmbCategory.Name = "cmbCategory";
+            cmbCategory.Size = new Size(223, 33);
+            cmbCategory.TabIndex = 19;
+            cmbCategory.Text = "All categories";
+            // 
+            // txtSearchRecipe
+            // 
+            txtSearchRecipe.Location = new Point(20, 26);
+            txtSearchRecipe.Name = "txtSearchRecipe";
+            txtSearchRecipe.Size = new Size(416, 31);
+            txtSearchRecipe.TabIndex = 18;
+            txtSearchRecipe.Text = "Search recipes...";
+            // 
+            // pnlRecipe3
+            // 
+            pnlRecipe3.BackColor = Color.White;
+            pnlRecipe3.Controls.Add(lblIngredients3);
+            pnlRecipe3.Controls.Add(btnViewRecipe3);
+            pnlRecipe3.Controls.Add(lblRecipeTime3);
+            pnlRecipe3.Controls.Add(lblRecipeDifficulty3);
+            pnlRecipe3.Controls.Add(picRecipe3);
+            pnlRecipe3.Controls.Add(lblRecipeName3);
+            pnlRecipe3.Location = new Point(886, 63);
+            pnlRecipe3.Name = "pnlRecipe3";
+            pnlRecipe3.Size = new Size(400, 300);
+            pnlRecipe3.TabIndex = 17;
+            // 
+            // lblIngredients3
+            // 
+            lblIngredients3.AutoSize = true;
+            lblIngredients3.Location = new Point(26, 197);
+            lblIngredients3.Name = "lblIngredients3";
+            lblIngredients3.Size = new Size(0, 25);
+            lblIngredients3.TabIndex = 10;
+            // 
+            // btnViewRecipe3
+            // 
+            btnViewRecipe3.Location = new Point(142, 257);
+            btnViewRecipe3.Name = "btnViewRecipe3";
+            btnViewRecipe3.Size = new Size(136, 34);
+            btnViewRecipe3.TabIndex = 11;
+            btnViewRecipe3.Text = "VIEW RECIPE";
+            btnViewRecipe3.UseVisualStyleBackColor = true;
+            // 
+            // lblRecipeTime3
+            // 
+            lblRecipeTime3.AutoSize = true;
+            lblRecipeTime3.Location = new Point(26, 163);
+            lblRecipeTime3.Name = "lblRecipeTime3";
+            lblRecipeTime3.Size = new Size(0, 25);
+            lblRecipeTime3.TabIndex = 8;
+            // 
+            // lblRecipeDifficulty3
+            // 
+            lblRecipeDifficulty3.AutoSize = true;
+            lblRecipeDifficulty3.Location = new Point(166, 163);
+            lblRecipeDifficulty3.Name = "lblRecipeDifficulty3";
+            lblRecipeDifficulty3.Size = new Size(0, 25);
+            lblRecipeDifficulty3.TabIndex = 9;
+            // 
+            // picRecipe3
+            // 
+            picRecipe3.Image = (Image)resources.GetObject("picRecipe3.Image");
+            picRecipe3.Location = new Point(-2, 0);
+            picRecipe3.Name = "picRecipe3";
+            picRecipe3.Size = new Size(399, 115);
+            picRecipe3.SizeMode = PictureBoxSizeMode.StretchImage;
+            picRecipe3.TabIndex = 2;
+            picRecipe3.TabStop = false;
+            picRecipe3.Click += picRecipe3_Click;
+            // 
+            // lblRecipeName3
+            // 
+            lblRecipeName3.AutoSize = true;
+            lblRecipeName3.Font = new Font("Georgia", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblRecipeName3.Location = new Point(15, 118);
+            lblRecipeName3.Name = "lblRecipeName3";
+            lblRecipeName3.Size = new Size(0, 38);
+            lblRecipeName3.TabIndex = 7;
+            // 
+            // pnlRecipe2
+            // 
+            pnlRecipe2.BackColor = Color.White;
+            pnlRecipe2.Controls.Add(btnViewRecipe2);
+            pnlRecipe2.Controls.Add(lblIngredients2);
+            pnlRecipe2.Controls.Add(lblRecipeDifficulty2);
+            pnlRecipe2.Controls.Add(lblRecipeTime2);
+            pnlRecipe2.Controls.Add(lblRecipeName2);
+            pnlRecipe2.Controls.Add(picRecipe2);
+            pnlRecipe2.Location = new Point(457, 63);
+            pnlRecipe2.Name = "pnlRecipe2";
+            pnlRecipe2.Size = new Size(400, 300);
+            pnlRecipe2.TabIndex = 16;
+            // 
+            // btnViewRecipe2
+            // 
+            btnViewRecipe2.Location = new Point(131, 257);
+            btnViewRecipe2.Name = "btnViewRecipe2";
+            btnViewRecipe2.Size = new Size(154, 34);
+            btnViewRecipe2.TabIndex = 6;
+            btnViewRecipe2.Text = "VIEW RECIPE";
+            btnViewRecipe2.UseVisualStyleBackColor = true;
+            // 
+            // lblIngredients2
+            // 
+            lblIngredients2.AutoSize = true;
+            lblIngredients2.Location = new Point(13, 197);
+            lblIngredients2.Name = "lblIngredients2";
+            lblIngredients2.Size = new Size(0, 25);
+            lblIngredients2.TabIndex = 6;
+            // 
+            // lblRecipeDifficulty2
+            // 
+            lblRecipeDifficulty2.AutoSize = true;
+            lblRecipeDifficulty2.Location = new Point(164, 163);
+            lblRecipeDifficulty2.Name = "lblRecipeDifficulty2";
+            lblRecipeDifficulty2.Size = new Size(0, 25);
+            lblRecipeDifficulty2.TabIndex = 6;
+            // 
+            // lblRecipeTime2
+            // 
+            lblRecipeTime2.AutoSize = true;
+            lblRecipeTime2.Location = new Point(13, 163);
+            lblRecipeTime2.Name = "lblRecipeTime2";
+            lblRecipeTime2.Size = new Size(0, 25);
+            lblRecipeTime2.TabIndex = 6;
+            // 
+            // lblRecipeName2
+            // 
+            lblRecipeName2.AutoSize = true;
+            lblRecipeName2.Font = new Font("Georgia", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblRecipeName2.Location = new Point(3, 118);
+            lblRecipeName2.Name = "lblRecipeName2";
+            lblRecipeName2.Size = new Size(0, 38);
+            lblRecipeName2.TabIndex = 6;
+            // 
+            // picRecipe2
+            // 
+            picRecipe2.Image = (Image)resources.GetObject("picRecipe2.Image");
+            picRecipe2.Location = new Point(1, 0);
+            picRecipe2.Name = "picRecipe2";
+            picRecipe2.Size = new Size(399, 115);
+            picRecipe2.SizeMode = PictureBoxSizeMode.StretchImage;
+            picRecipe2.TabIndex = 1;
+            picRecipe2.TabStop = false;
+            // 
+            // pnlRecipe1
+            // 
+            pnlRecipe1.BackColor = Color.White;
+            pnlRecipe1.Controls.Add(btnViewRecipe1);
+            pnlRecipe1.Controls.Add(lblIngredients);
+            pnlRecipe1.Controls.Add(lblRecipeDifficulty1);
+            pnlRecipe1.Controls.Add(lblRecipeTime1);
+            pnlRecipe1.Controls.Add(lblRecipeName1);
+            pnlRecipe1.Controls.Add(picRecipe1);
+            pnlRecipe1.Location = new Point(19, 63);
+            pnlRecipe1.Name = "pnlRecipe1";
+            pnlRecipe1.Size = new Size(400, 300);
+            pnlRecipe1.TabIndex = 15;
+            // 
+            // btnViewRecipe1
+            // 
+            btnViewRecipe1.Location = new Point(114, 257);
+            btnViewRecipe1.Name = "btnViewRecipe1";
+            btnViewRecipe1.Size = new Size(155, 34);
+            btnViewRecipe1.TabIndex = 5;
+            btnViewRecipe1.Text = "VIEW RECIPE";
+            btnViewRecipe1.UseVisualStyleBackColor = true;
+            // 
+            // lblIngredients
+            // 
+            lblIngredients.AutoSize = true;
+            lblIngredients.Location = new Point(11, 197);
+            lblIngredients.Name = "lblIngredients";
+            lblIngredients.Size = new Size(0, 25);
+            lblIngredients.TabIndex = 4;
+            // 
+            // lblRecipeDifficulty1
+            // 
+            lblRecipeDifficulty1.AutoSize = true;
+            lblRecipeDifficulty1.Location = new Point(114, 163);
+            lblRecipeDifficulty1.Name = "lblRecipeDifficulty1";
+            lblRecipeDifficulty1.Size = new Size(0, 25);
+            lblRecipeDifficulty1.TabIndex = 3;
+            // 
+            // lblRecipeTime1
+            // 
+            lblRecipeTime1.AutoSize = true;
+            lblRecipeTime1.Location = new Point(11, 163);
+            lblRecipeTime1.Name = "lblRecipeTime1";
+            lblRecipeTime1.Size = new Size(0, 25);
+            lblRecipeTime1.TabIndex = 2;
+            // 
+            // lblRecipeName1
+            // 
+            lblRecipeName1.AutoSize = true;
+            lblRecipeName1.Font = new Font("Georgia", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblRecipeName1.Location = new Point(3, 118);
+            lblRecipeName1.Name = "lblRecipeName1";
+            lblRecipeName1.Size = new Size(0, 38);
+            lblRecipeName1.TabIndex = 1;
+            // 
+            // picRecipe1
+            // 
+            picRecipe1.Image = (Image)resources.GetObject("picRecipe1.Image");
+            picRecipe1.Location = new Point(1, 0);
+            picRecipe1.Name = "picRecipe1";
+            picRecipe1.Size = new Size(399, 115);
+            picRecipe1.SizeMode = PictureBoxSizeMode.StretchImage;
+            picRecipe1.TabIndex = 0;
+            picRecipe1.TabStop = false;
+            picRecipe1.Click += picRecipe1_Click;
+            // 
             // lblTotalFood
             // 
             lblTotalFood.AutoSize = true;
@@ -580,6 +820,15 @@
             panel2.Size = new Size(187, 119);
             panel2.TabIndex = 31;
             // 
+            // lblMatchingRecipes
+            // 
+            lblMatchingRecipes.AutoSize = true;
+            lblMatchingRecipes.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblMatchingRecipes.Location = new Point(136, 25);
+            lblMatchingRecipes.Name = "lblMatchingRecipes";
+            lblMatchingRecipes.Size = new Size(0, 25);
+            lblMatchingRecipes.TabIndex = 41;
+            // 
             // pictureBox20
             // 
             pictureBox20.Image = (Image)resources.GetObject("pictureBox20.Image");
@@ -612,6 +861,15 @@
             panel3.Name = "panel3";
             panel3.Size = new Size(187, 119);
             panel3.TabIndex = 32;
+            // 
+            // lblExpiringFood
+            // 
+            lblExpiringFood.AutoSize = true;
+            lblExpiringFood.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblExpiringFood.Location = new Point(128, 25);
+            lblExpiringFood.Name = "lblExpiringFood";
+            lblExpiringFood.Size = new Size(0, 25);
+            lblExpiringFood.TabIndex = 42;
             // 
             // pictureBox21
             // 
@@ -657,6 +915,15 @@
             panel4.Name = "panel4";
             panel4.Size = new Size(214, 119);
             panel4.TabIndex = 33;
+            // 
+            // lblAvailableIngredients
+            // 
+            lblAvailableIngredients.AutoSize = true;
+            lblAvailableIngredients.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblAvailableIngredients.Location = new Point(140, 25);
+            lblAvailableIngredients.Name = "lblAvailableIngredients";
+            lblAvailableIngredients.Size = new Size(0, 25);
+            lblAvailableIngredients.TabIndex = 43;
             // 
             // label12
             // 
@@ -721,33 +988,6 @@
             pictureBox10.TabIndex = 36;
             pictureBox10.TabStop = false;
             // 
-            // lblMatchingRecipes
-            // 
-            lblMatchingRecipes.AutoSize = true;
-            lblMatchingRecipes.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblMatchingRecipes.Location = new Point(136, 25);
-            lblMatchingRecipes.Name = "lblMatchingRecipes";
-            lblMatchingRecipes.Size = new Size(0, 25);
-            lblMatchingRecipes.TabIndex = 41;
-            // 
-            // lblExpiringFood
-            // 
-            lblExpiringFood.AutoSize = true;
-            lblExpiringFood.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblExpiringFood.Location = new Point(128, 25);
-            lblExpiringFood.Name = "lblExpiringFood";
-            lblExpiringFood.Size = new Size(0, 25);
-            lblExpiringFood.TabIndex = 42;
-            // 
-            // lblAvailableIngredients
-            // 
-            lblAvailableIngredients.AutoSize = true;
-            lblAvailableIngredients.Font = new Font("Segoe UI Black", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblAvailableIngredients.Location = new Point(140, 25);
-            lblAvailableIngredients.Name = "lblAvailableIngredients";
-            lblAvailableIngredients.Size = new Size(0, 25);
-            lblAvailableIngredients.TabIndex = 43;
-            // 
             // pictureBox11
             // 
             pictureBox11.BackColor = Color.Transparent;
@@ -759,244 +999,20 @@
             pictureBox11.TabIndex = 39;
             pictureBox11.TabStop = false;
             // 
-            // pnlRecipe1
+            // pictureBox4
             // 
-            pnlRecipe1.BackColor = Color.White;
-            pnlRecipe1.Controls.Add(btnViewRecipe1);
-            pnlRecipe1.Controls.Add(lblIngredients);
-            pnlRecipe1.Controls.Add(lblRecipeDifficulty1);
-            pnlRecipe1.Controls.Add(lblRecipeTime1);
-            pnlRecipe1.Controls.Add(lblRecipeName1);
-            pnlRecipe1.Controls.Add(picRecipe1);
-            pnlRecipe1.Location = new Point(19, 63);
-            pnlRecipe1.Name = "pnlRecipe1";
-            pnlRecipe1.Size = new Size(400, 300);
-            pnlRecipe1.TabIndex = 15;
-            // 
-            // pnlRecipe2
-            // 
-            pnlRecipe2.BackColor = Color.White;
-            pnlRecipe2.Controls.Add(btnViewRecipe2);
-            pnlRecipe2.Controls.Add(lblIngredients2);
-            pnlRecipe2.Controls.Add(lblRecipeDifficulty2);
-            pnlRecipe2.Controls.Add(lblRecipeTime2);
-            pnlRecipe2.Controls.Add(lblRecipeName2);
-            pnlRecipe2.Controls.Add(picRecipe2);
-            pnlRecipe2.Location = new Point(457, 63);
-            pnlRecipe2.Name = "pnlRecipe2";
-            pnlRecipe2.Size = new Size(400, 300);
-            pnlRecipe2.TabIndex = 16;
-            // 
-            // pnlRecipe3
-            // 
-            pnlRecipe3.BackColor = Color.White;
-            pnlRecipe3.Controls.Add(lblIngredients3);
-            pnlRecipe3.Controls.Add(btnViewRecipe3);
-            pnlRecipe3.Controls.Add(lblRecipeTime3);
-            pnlRecipe3.Controls.Add(lblRecipeDifficulty3);
-            pnlRecipe3.Controls.Add(picRecipe3);
-            pnlRecipe3.Controls.Add(lblRecipeName3);
-            pnlRecipe3.Location = new Point(886, 63);
-            pnlRecipe3.Name = "pnlRecipe3";
-            pnlRecipe3.Size = new Size(400, 300);
-            pnlRecipe3.TabIndex = 17;
-            // 
-            // txtSearchRecipe
-            // 
-            txtSearchRecipe.Location = new Point(20, 26);
-            txtSearchRecipe.Name = "txtSearchRecipe";
-            txtSearchRecipe.Size = new Size(416, 31);
-            txtSearchRecipe.TabIndex = 18;
-            txtSearchRecipe.Text = "Search recipes...";
-            // 
-            // cmbCategory
-            // 
-            cmbCategory.FormattingEnabled = true;
-            cmbCategory.Items.AddRange(new object[] { "Breakfast", "Lunch", "Dinner", "Snacks", "Dessert" });
-            cmbCategory.Location = new Point(457, 24);
-            cmbCategory.Name = "cmbCategory";
-            cmbCategory.Size = new Size(223, 33);
-            cmbCategory.TabIndex = 19;
-            cmbCategory.Text = "All categories";
-            // 
-            // cmbCookingTime
-            // 
-            cmbCookingTime.FormattingEnabled = true;
-            cmbCookingTime.Items.AddRange(new object[] { "Under 15 minutes", "15-30 minutes", "30-60 minutes", "Over 60 minutes" });
-            cmbCookingTime.Location = new Point(712, 24);
-            cmbCookingTime.Name = "cmbCookingTime";
-            cmbCookingTime.Size = new Size(182, 33);
-            cmbCookingTime.TabIndex = 20;
-            cmbCookingTime.Text = "Cooking  time";
-            // 
-            // chkUsesExpiringFood
-            // 
-            chkUsesExpiringFood.AutoSize = true;
-            chkUsesExpiringFood.Location = new Point(939, 28);
-            chkUsesExpiringFood.Name = "chkUsesExpiringFood";
-            chkUsesExpiringFood.Size = new Size(187, 29);
-            chkUsesExpiringFood.TabIndex = 21;
-            chkUsesExpiringFood.Text = "Uses expiring food";
-            chkUsesExpiringFood.UseVisualStyleBackColor = true;
-            // 
-            // picRecipe1
-            // 
-            picRecipe1.Location = new Point(1, 0);
-            picRecipe1.Name = "picRecipe1";
-            picRecipe1.Size = new Size(399, 115);
-            picRecipe1.SizeMode = PictureBoxSizeMode.Zoom;
-            picRecipe1.TabIndex = 0;
-            picRecipe1.TabStop = false;
-            // 
-            // picRecipe2
-            // 
-            picRecipe2.Location = new Point(1, 0);
-            picRecipe2.Name = "picRecipe2";
-            picRecipe2.Size = new Size(399, 115);
-            picRecipe2.SizeMode = PictureBoxSizeMode.Zoom;
-            picRecipe2.TabIndex = 1;
-            picRecipe2.TabStop = false;
-            // 
-            // picRecipe3
-            // 
-            picRecipe3.Location = new Point(-2, 0);
-            picRecipe3.Name = "picRecipe3";
-            picRecipe3.Size = new Size(399, 115);
-            picRecipe3.SizeMode = PictureBoxSizeMode.Zoom;
-            picRecipe3.TabIndex = 2;
-            picRecipe3.TabStop = false;
-            // 
-            // lblRecipeName1
-            // 
-            lblRecipeName1.AutoSize = true;
-            lblRecipeName1.Font = new Font("Georgia", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblRecipeName1.Location = new Point(3, 118);
-            lblRecipeName1.Name = "lblRecipeName1";
-            lblRecipeName1.Size = new Size(0, 38);
-            lblRecipeName1.TabIndex = 1;
-            // 
-            // lblRecipeTime1
-            // 
-            lblRecipeTime1.AutoSize = true;
-            lblRecipeTime1.Location = new Point(11, 163);
-            lblRecipeTime1.Name = "lblRecipeTime1";
-            lblRecipeTime1.Size = new Size(0, 25);
-            lblRecipeTime1.TabIndex = 2;
-            // 
-            // lblRecipeDifficulty1
-            // 
-            lblRecipeDifficulty1.AutoSize = true;
-            lblRecipeDifficulty1.Location = new Point(114, 163);
-            lblRecipeDifficulty1.Name = "lblRecipeDifficulty1";
-            lblRecipeDifficulty1.Size = new Size(0, 25);
-            lblRecipeDifficulty1.TabIndex = 3;
-            // 
-            // lblIngredients
-            // 
-            lblIngredients.AutoSize = true;
-            lblIngredients.Location = new Point(11, 197);
-            lblIngredients.Name = "lblIngredients";
-            lblIngredients.Size = new Size(0, 25);
-            lblIngredients.TabIndex = 4;
-            // 
-            // btnViewRecipe1
-            // 
-            btnViewRecipe1.Location = new Point(114, 257);
-            btnViewRecipe1.Name = "btnViewRecipe1";
-            btnViewRecipe1.Size = new Size(155, 34);
-            btnViewRecipe1.TabIndex = 5;
-            btnViewRecipe1.Text = "VIEW RECIPE";
-            btnViewRecipe1.UseVisualStyleBackColor = true;
-            // 
-            // lblRecipeName2
-            // 
-            lblRecipeName2.AutoSize = true;
-            lblRecipeName2.Font = new Font("Georgia", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblRecipeName2.Location = new Point(3, 118);
-            lblRecipeName2.Name = "lblRecipeName2";
-            lblRecipeName2.Size = new Size(0, 38);
-            lblRecipeName2.TabIndex = 6;
-            // 
-            // lblRecipeTime2
-            // 
-            lblRecipeTime2.AutoSize = true;
-            lblRecipeTime2.Location = new Point(13, 163);
-            lblRecipeTime2.Name = "lblRecipeTime2";
-            lblRecipeTime2.Size = new Size(0, 25);
-            lblRecipeTime2.TabIndex = 6;
-            // 
-            // lblRecipeDifficulty2
-            // 
-            lblRecipeDifficulty2.AutoSize = true;
-            lblRecipeDifficulty2.Location = new Point(164, 163);
-            lblRecipeDifficulty2.Name = "lblRecipeDifficulty2";
-            lblRecipeDifficulty2.Size = new Size(0, 25);
-            lblRecipeDifficulty2.TabIndex = 6;
-            // 
-            // lblIngredients2
-            // 
-            lblIngredients2.AutoSize = true;
-            lblIngredients2.Location = new Point(13, 197);
-            lblIngredients2.Name = "lblIngredients2";
-            lblIngredients2.Size = new Size(0, 25);
-            lblIngredients2.TabIndex = 6;
-            // 
-            // btnViewRecipe2
-            // 
-            btnViewRecipe2.Location = new Point(131, 257);
-            btnViewRecipe2.Name = "btnViewRecipe2";
-            btnViewRecipe2.Size = new Size(154, 34);
-            btnViewRecipe2.TabIndex = 6;
-            btnViewRecipe2.Text = "VIEW RECIPE";
-            btnViewRecipe2.UseVisualStyleBackColor = true;
-            // 
-            // lblRecipeName3
-            // 
-            lblRecipeName3.AutoSize = true;
-            lblRecipeName3.Font = new Font("Georgia", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblRecipeName3.Location = new Point(15, 118);
-            lblRecipeName3.Name = "lblRecipeName3";
-            lblRecipeName3.Size = new Size(0, 38);
-            lblRecipeName3.TabIndex = 7;
-            // 
-            // lblRecipeTime3
-            // 
-            lblRecipeTime3.AutoSize = true;
-            lblRecipeTime3.Location = new Point(26, 163);
-            lblRecipeTime3.Name = "lblRecipeTime3";
-            lblRecipeTime3.Size = new Size(0, 25);
-            lblRecipeTime3.TabIndex = 8;
-            // 
-            // lblRecipeDifficulty3
-            // 
-            lblRecipeDifficulty3.AutoSize = true;
-            lblRecipeDifficulty3.Location = new Point(166, 163);
-            lblRecipeDifficulty3.Name = "lblRecipeDifficulty3";
-            lblRecipeDifficulty3.Size = new Size(0, 25);
-            lblRecipeDifficulty3.TabIndex = 9;
-            // 
-            // lblIngredients3
-            // 
-            lblIngredients3.AutoSize = true;
-            lblIngredients3.Location = new Point(26, 197);
-            lblIngredients3.Name = "lblIngredients3";
-            lblIngredients3.Size = new Size(0, 25);
-            lblIngredients3.TabIndex = 10;
-            // 
-            // btnViewRecipe3
-            // 
-            btnViewRecipe3.Location = new Point(142, 257);
-            btnViewRecipe3.Name = "btnViewRecipe3";
-            btnViewRecipe3.Size = new Size(136, 34);
-            btnViewRecipe3.TabIndex = 11;
-            btnViewRecipe3.Text = "VIEW RECIPE";
-            btnViewRecipe3.UseVisualStyleBackColor = true;
+            pictureBox4.Location = new Point(1139, 707);
+            pictureBox4.Name = "pictureBox4";
+            pictureBox4.Size = new Size(150, 75);
+            pictureBox4.TabIndex = 41;
+            pictureBox4.TabStop = false;
             // 
             // Form7
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1553, 757);
+            Controls.Add(pictureBox4);
             Controls.Add(label9);
             Controls.Add(panel1);
             Controls.Add(panel6);
@@ -1035,6 +1051,15 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             panel8.ResumeLayout(false);
             panel8.PerformLayout();
+            pnlRecipe3.ResumeLayout(false);
+            pnlRecipe3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)picRecipe3).EndInit();
+            pnlRecipe2.ResumeLayout(false);
+            pnlRecipe2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)picRecipe2).EndInit();
+            pnlRecipe1.ResumeLayout(false);
+            pnlRecipe1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)picRecipe1).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox20).EndInit();
@@ -1048,15 +1073,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox14).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
-            pnlRecipe1.ResumeLayout(false);
-            pnlRecipe1.PerformLayout();
-            pnlRecipe2.ResumeLayout(false);
-            pnlRecipe2.PerformLayout();
-            pnlRecipe3.ResumeLayout(false);
-            pnlRecipe3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)picRecipe1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)picRecipe2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)picRecipe3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -1142,5 +1159,6 @@
         private Label lblRecipeDifficulty2;
         private Label lblRecipeTime2;
         private Button btnViewRecipe3;
+        private PictureBox pictureBox4;
     }
 }
