@@ -2,7 +2,6 @@ namespace sep_26_nutrisave
 {
     public partial class Form1 : Form
     {
-
         public Form1()
         {
             InitializeComponent();
@@ -16,7 +15,22 @@ namespace sep_26_nutrisave
             btnFoodSharing.Click += btnFoodSharing_Click;
             btnReport.Click += btnReport_Click;
             btnRecipes.Click += btnRecipes_Click;
+            btnAdminPanel.Click += btnAdminPanel_Click;
             LoadExpiryAlerts();
+        }
+
+        private void btnAdminPanel_Click(object? sender, EventArgs e)
+        {
+            using AdminLoginForm login = new();
+            if (login.ShowDialog(this) != DialogResult.OK)
+            {
+                return;
+            }
+
+            AdminPanelForm adminPanel = new();
+            adminPanel.FormClosed += (_, _) => Show();
+            Hide();
+            adminPanel.Show();
         }
 
 
@@ -155,7 +169,15 @@ namespace sep_26_nutrisave
             this.Hide();
         }
 
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
 
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
     
